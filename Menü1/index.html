@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*MENU*/
+        
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: black;
+            padding: 20px 25px;
+        }
+        nav{
+            display: inline-block;
+            width: calc(100% - 103px);
+            text-align: right;
+        }
+        nav ul{
+            list-style-type: none;
+
+        }
+        nav ul li{
+            display: inline-block;
+            margin: 10px 25px;
+        }
+        .logo{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 22px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            padding: 15px 25px;
+            font-size: 22px;
+            transition: 0.6s
+    
+        }
+        nav ul li a:hover{
+            background-color: white;
+            color: black;
+            border-radius: 30px;
+        }
+        /*MENU ALTINDAKİ RESİM KISMI*/
+       #section-1{
+        background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(burger.jpg);
+        background-position: top;
+        padding: 12px;
+        height: 850px;
+        width: 100%;
+        background-size: cover;
+       }
+       .btn-s1{
+        margin-left: 33%;
+        margin-top: 20%;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        padding: 25px 20px;
+        font-size: 30px;
+        border-radius: 15px;
+        transition: color 0.6s;
+        text-align: center;
+        
+        
+       
+       
+       }
+       /*card*/
+       #section-2{
+        display: flex;
+        justify-content: space-around;
+        margin: 200px 0;
+       }
+       .card{
+        width: 20%;
+        box-shadow: 0 5px 9px 0 rgba(0,0,0,0.4);
+        border-radius: 6px;
+       }
+       .card:hover{
+        opacity: 0.7;
+        transition: 0.6s;
+       }
+       .container{
+        padding: 5px 20px;
+       }
+       .container p{
+        margin: 15px 0;
+       }
+       img{
+        border-radius: 6px 6px 0 0;
+        width: 100%;
+       }
+       p{
+        font-size: 19px;
+       }
+       #section-3{
+        display: flex;
+        justify-content: space-around;
+        margin: 200px 0;
+       }
+       footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        padding: 20px 0;
+       }
+    </style>
+</head>
+<body>
+    <header>
+    <a href="#" class="logo">EMOEAT</a>
+    <nav>
+        <ul>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Complaints</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </nav>
+    </header>
+    
+    <main>
+        <section id="section-1">
+            <button class="btn-s1">Scroll Down To See The Dishes...</button>
+        </section>
+
+        <section id="section-2">
+        <div class="card">      
+             <img src="0101.jpg" alt="">
+             <div class="container">
+              <h2>Chicken Burger</h2>
+              <p>Chicken Burger with pickles,onions,tomatoes and
+                cheddar cheese.</p>
+             </div>
+        </div>
+
+        <div class="card">      
+            <img src="0202.jpg" alt="">
+            <div class="container">
+             <h2>Spicy Chicken Burger</h2>
+             <p>Spicy Chicken Burger with pickles,onions,tomatoes and
+               cheddar cheese.</p>
+            </div>
+       </div>
+
+       <div class="card">      
+        <img src="0303.jpg" alt="">
+        <div class="container">
+         <h2>Vegetarian Burger</h2>
+         <p>Vegetarian Burger with pickles,onions,tomatoes and
+           vegetarian cheese.</p>
+        </div>
+   </div>
+        </section>
+
+
+
+
+
+
+
+
+        <section id="section-3">
+            <div class="card">      
+                 <img src="0404.jpg" alt="">
+                 <div class="container">
+                  <h2>Purple Burger</h2>
+                  <p>Purple Burger with pickles,pineaplle,onions,tomatoes and
+                    cheddar cheese.</p>
+                 </div>
+            </div>
+    
+            <div class="card">      
+                <img src="0505.jpg" alt="">
+                <div class="container">
+                 <h2>Fish Burger</h2>
+                 <p>Fish Burger with cucumber,Special Sauce,tomatoes and
+                   some green.</p>
+                </div>
+           </div>
+    
+           <div class="card">      
+            <img src="0606.jpg" alt="">
+            <div class="container">
+             <h2>Nigga Burger</h2>
+             <p>    Nigga Burger with pickles,onions,tomatoes and
+               cheddar cheese.</p>
+            </div>
+       </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    </main>
+
+    <footer>
+        Powered by:Eyüp Eymen Toprak  
+    </footer>
+</body>
+</html>
